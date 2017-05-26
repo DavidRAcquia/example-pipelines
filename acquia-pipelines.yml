@@ -8,7 +8,7 @@ variables:
     # echo -n 'your secret' | pipelines encrypt - --add variables.global.N3_SECRET
     N3_SECRET:
       secure: 2acXBoj629cXgr1tVijFBcq25Nmpmm8ZHXSN/rS/9ofTdXzNcJ2myFPz/pH7Ky79mkD7kMmL6LtLLgOp0S20OmcLFFJBXo6t4G/vq5KLLUF9ZsnMmW3RDz+38T7uHJ+2xCPDYucaEtKUQRrdXuOFx4gXliH3hirnJ8aieIObI87XQ/i2LtoWOBr4ZeJHzuXGGCRw59QlLHvS+zmH4whRgRhyEnYzd2TtxNr2Fy60IhhFb9/03V1kgZXUzlZBwIAOr5EV3qw/gjwc4nJ22TvazrGS6MYT94DXIbLqkQHGrrhSF0XyxHPU2tksEwHiUoYpPyLqmopmmenpySjaesEhUcEi8Zu9u4UzocV9hTtf2C58XEBIb34cyrAQqFMMx5gROBPTFf11+44kmt4ri32O5f74m/SdHGW/XXGodeJMMmIVUewJvIoooPO6TJ4raoIUCwPNiqaNGal8CVbasQhblN/Zb4bUu1tSX3ucuWXAfnPZSIk+xvLkRwJOTGUfdruaHXuP0hWhUTWp/iRWgafPtn98zHX+wag1Ym70kAlrC74ktKNBqHb/ggPmGWY8Jb7pIUUYH1hrJH6OPDQz2xJPG94/0pjM+IlSl5IWiWgMbux2iHaTWpRhMUBTnPTNbUMkd0PRxjwap3DmgjHdkY7zTUUvS8gYuikmQrMqQCGhQKki9Y=aRsCU5P5qpUrFel4f+UklCPgXuX2R74xqiE94M5fuQBQCxx9fwq0DxCpaydLeqHqvx8FHXoxy85jVvqUnEAtG2KVsKbYFiqHSvW4e1IsH34irpTQGNeTG/S/tUtlFcrX
-     PIPELINES_DEPLOY_URL: https://github.com/acquia/pipelines-examples/releases/download/deploy-latest/pipelines-deploy
+    PIPELINES_DEPLOY_URL: https://github.com/acquia/pipelines-examples/releases/download/deploy-latest/pipelines-deploy
     PIPELINES_DEPLOY_TOOL: $HOME/pipelines-deploy
 events:
   build:
